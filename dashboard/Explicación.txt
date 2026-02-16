@@ -1,0 +1,25 @@
+Estructura del Dashboard de Datos
+1. Maquetación y Estructura (Clase I)
+El objetivo es utilizar HTML5 Semántico para que el navegador y 
+los buscadores entiendan la jerarquía de la información, y CSS para el control 
+total del diseño.HTML5 Semántico: Define el Dashboard usando etiquetas como <header> 
+para la barra de herramientas, <nav> para el menú lateral, <main> para los indicadores 
+principales, y <section> para los gráficos o tablas de datos.CSS Grid: Ideal para la estructura 
+general del Dashboard (la "rejilla" principal), permitiendo definir columnas para el menú y el
+contenido central.CSS Flexbox: Úsalo dentro de los componentes individuales (widgets),
+como alinear iconos y texto dentro de una tarjeta de métricas.2. Gestión e Intercambio de Datos
+ (Clase II)Aquí es donde el Dashboard cobra vida, transformando datos estáticos en 
+ información dinámica utilizando JavaScript y JSON.JSON (La moneda de cambio): Los datos que 
+ mostrará el dashboard deben estructurarse en formato JSON, permitiendo una organización clara
+  de objetos y arreglos (por ejemplo, un arreglo de "ventas" donde cada objeto es una transacción).
+  Consumo con Fetch y Async/Await: En lugar de cargar datos locales, utiliza fetch() para 
+  realizar peticiones asíncronas a una API. Implementa async/await para manejar la respuesta de 
+  forma limpia, asegurando que el dashboard no se bloquee mientras espera los datos.Manipulación 
+  del DOM: Una vez recibidos los datos, usa document.querySelector y métodos de arreglos como .map() o .filter() para generar dinámicamente las tarjetas o filas de la tabla sin necesidad de recargar la página.
+  Integración de Conceptos Clave (Explicación)Para que la explicación en clase sea efectiva, 
+  puedes conectar los puntos de la siguiente manera:ConceptoAplicación en el DashboardFuente 
+  de ApoyoVariables (let/const)Almacenar la URL de la API o los datos procesados.Video: Tech 
+  With TimEventos (click)Botones de "Refrescar" o filtros de fecha que activan una nueva petición 
+  fetch.Video: CS50WSeparación de CódigoMantener los estilos en .css y la lógica de consumo en 
+  un archivo .js independiente.Video: CS50W Arrow FunctionsEscribir funciones de procesamiento 
+  de datos más concisas dentro de los métodos de arreglo.Video: Tech With Tim

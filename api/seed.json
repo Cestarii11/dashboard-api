@@ -1,0 +1,18 @@
+{
+    "metrics": [
+        { "title": "Ventas Totales Este Mes", "value": "63,450$" },
+        { "title": "Nuevos Usuarios", "value": "1,204" },
+        { "title": "Tasa de Rebote", "value": "23%" }
+    ],
+    "transactions": [
+        { "id": "txn_051", "product": "SSD 1TB Kingston", "date": "2026-01-15T09:34:00Z", "amount": 150.00 },
+        { "id": "txn_035", "product": "Samsung A24", "date": "2026-01-15T10:11:00Z", "amount": 220.50 },
+
+        { "id": "txn_200", "product": "Teclado Mecánico Redragon Kumara", "date": "2026-01-20T11:30:00Z", "amount": 45.00 },
+        { "id": "txn_201", "product": "Mouse Gamer Logitech G502", "date": "2026-01-20T11:45:00Z", "amount": 55.00 },
+        { "id": "txn_202", "product": "Audífonos HyperX Cloud II", "date": "2026-01-20T12:00:00Z", "amount": 95.00 },
+        { "id": "txn_203", "product": "Tarjeta Gráfica RTX 4060", "date": "2026-01-21T10:00:00Z", "amount": 390.00 },
+        { "id": "txn_204", "product": "Silla Gamer Cougar Armor", "date": "2026-01-21T10:15:00Z", "amount": 150.00 },
+        { "id": "txn_205", "product": "Memory RAM DDR4 16GB Corsair", "date": "2026-01-21T10:30:00Z", "amount": 65.00 }
+    ]
+}
